@@ -5,6 +5,7 @@ import time, sys
 # PUERTO = 8000
 
 class MiHandler(BaseHTTPRequestHandler):
+
     def do_POST(self):
     
         content_len = int(self.headers['Content-Length'])
